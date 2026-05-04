@@ -1,6 +1,8 @@
 #pragma bank 4
 
 #include "maps/3-0/map_30.h"
+#include "maps/utils/map_data.h"
+
 #include "core/scenes/scene.h"
 
 void Map_30_Create()
@@ -9,4 +11,6 @@ void Map_30_Create()
   Map_30.update = Map_30_Update;
   Map_30.destroy = Map_30_Destroy;
   Map_30.bank = 4;
+
+  Map_VisitCount[MAP_30 - MAP_COUNT_INIT]++;
 }

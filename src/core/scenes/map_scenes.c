@@ -28,7 +28,7 @@
 #define MAP_1_BANK 2
 #define MAP_2_BANK 3
 #define MAP_3_BANK 4
-#define MENU_BANK 5
+#define MENU_BANK 2 // A corregir. Seguramente termine siendo el banco 5
 #define INVENTORY_BANK 2
 #define MG_BANK 6
 

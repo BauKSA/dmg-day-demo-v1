@@ -16,9 +16,6 @@
 
 void Map_30_InitNPC()
 {
-  humor_stats[(uint8_t)NPC_ESCOBA] = 1;
-  relation_stats[(uint8_t)NPC_ESCOBA] = 1;
-
   position.x[npc_1] = 56;
   position.y[npc_1] = 112;
 

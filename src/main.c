@@ -1,11 +1,12 @@
 #include <gb/gb.h>
 #include <stdlib.h>
 
-//ENGINE INCLUDES
+// ENGINE INCLUDES
 #include "engine/draw.h"
 #include "engine/input.h"
+#include "engine/random.h"
 
-//CORE INCLUDES
+// CORE INCLUDES
 #include "core/game.h"
 
 #include "core/definitions/mgm_states.h"
@@ -22,7 +23,7 @@
 
 #include "core/utils/action.h"
 
-//ASSETS INCLUDES
+// ASSETS INCLUDES
 #include "../assets/chars/chars.h"
 #include "../assets/chars/numbers.h"
 #include "../assets/chars/buttons.h"
@@ -79,7 +80,7 @@ void main(void)
   enum GenderSelect gender = &GENDER;
   SceneManager_Create(&game);
 
-  scene_manager.change_scene(MAP_21, player);
+  scene_manager.change_scene(MENU, player);
 
   load_number_tiles();
 
@@ -102,11 +103,5 @@ void main(void)
 
     vsync();
     refresh_OAM();
-
-    if (MGM_states.book == MGM_INACTIVE && MGM_states.glasses == MGM_INACTIVE && MGM_states.mg_homework == MGM_INACTIVE && MGM_states.mg_leaves == MGM_INACTIVE && MGM_states.super == MGM_INACTIVE)
-    {
-      if (money < GAME_BOY_PRICE)
-        next_scene = GAME_OVER;
-    }
   }
 }

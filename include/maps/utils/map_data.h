@@ -44,9 +44,12 @@ typedef struct MapData
   uint8_t receive_items;
 } MapData;
 
+typedef uint8_t MapVisitCount;
+
 void Map_Collision(Scene *scene);
 void Map_Clean();
 
 extern MapData CurrentMapData;
+extern MapVisitCount Map_VisitCount[MAP_COUNT_END - MAP_COUNT_INIT];
 
 #endif // MAP_DATA_H
