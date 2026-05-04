@@ -1,0 +1,26 @@
+#include <stdlib.h>
+
+#include "engine/entity.h"
+#include "core/game.h"
+#include "core/characters/npc_lines.h"
+#include "maps/utils/map_data.h"
+
+#ifndef MAP_22_H
+#define MAP_22_H
+
+void Map_22_Init(Scene *scene, Entity scene_player);
+void Map_22_Update(Scene *scene);
+void Map_22_Destroy(Scene *scene);
+
+void Map_22_InitNPC(void);
+void Map_22_InitDialogues(void);
+void Map_22_CheckInput(void);
+void Map_22_CheckItems(void);
+
+extern Scene Map_22;
+extern uint8_t npc_appeared;
+extern uint8_t temp_relation;
+
+void Map_22_Create(void);
+
+#endif // MAP_22_H

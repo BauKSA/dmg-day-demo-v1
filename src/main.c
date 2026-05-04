@@ -1,0 +1,112 @@
+#include <gb/gb.h>
+#include <stdlib.h>
+
+//ENGINE INCLUDES
+#include "engine/draw.h"
+#include "engine/input.h"
+
+//CORE INCLUDES
+#include "core/game.h"
+
+#include "core/definitions/mgm_states.h"
+#include "core/definitions/gender_selection.h"
+#include "core/definitions/inventory.h"
+#include "core/definitions/mgm_states.h"
+#include "core/definitions/money.h"
+
+#include "core/scenes/scene.h"
+#include "core/scenes/scene_manager.h"
+
+#include "core/characters/npcs.h"
+#include "core/characters/player.h"
+
+#include "core/utils/action.h"
+
+//ASSETS INCLUDES
+#include "../assets/chars/chars.h"
+#include "../assets/chars/numbers.h"
+#include "../assets/chars/buttons.h"
+#include "../assets/sprites/backgrounds/npc_icons/npc_icons.h"
+
+#include "../assets/sprites/backgrounds/maps/general_tileset.h"
+
+// Carga los tiles de números al inicio del juego
+void load_number_tiles()
+{
+  set_bkg_data(CHARS_TILESET_START, chars_tileset_size,
+               (uint8_t *)chars_tileset);
+  set_bkg_data(NUMBER_TILESET_START, numbers_tileset_size,
+               (uint8_t *)numbers_tileset);
+
+  init_buttons_tileset();
+}
+
+void main(void)
+{
+  DISPLAY_ON;
+  SHOW_SPRITES;
+
+  // 1. Encender el sistema de sonido (Registro NR52)
+  NR52_REG = 0x80;
+
+  // 2. Habilitar la salida a los parlantes izquierdo y derecho (Registro NR51)
+  // 0xFF activa todos los canales (1, 2, 3 y 4) en ambos lados.
+  NR51_REG = 0xFF;
+
+  // 3. Ajustar el volumen maestro (Registro NR50)
+  // 0x77 es el volumen máximo para ambos canales.
+  NR50_REG = 0x33;
+
+  /*
+  Game game; se guarda en el stack. El stack de la GB es muy chico, así que
+  muchas veces se sobreescribe y puede llegar a corromper la variable, por eso
+  algo que persiste como el game, debería ser static.
+  */
+
+  static Game game;
+  game.running = 1;
+
+  set_bkg_data(0, general_tileset_size, general_tileset);
+
+  InitNPCIcons();
+
+  create_player();
+  init_NPCs();
+
+  init_inventory();
+  init_mgm_states();
+
+  enum GenderSelect gender = &GENDER;
+  SceneManager_Create(&game);
+
+  scene_manager.change_scene(MAP_21, player);
+
+  load_number_tiles();
+
+  while (game.running)
+  {
+    prev_keys = keys;
+    keys = joypad();
+
+    if (next_scene != NONE)
+      scene_manager.change_scene(next_scene, player);
+
+    uint8_t previous_bank = _current_bank;
+    if (game.current_scene->bank != _current_bank)
+      SWITCH_ROM_MBC1(game.current_scene->bank);
+
+    game.current_scene->update(game.current_scene);
+
+    if (previous_bank != _current_bank)
+      SWITCH_ROM_MBC1(previous_bank);
+
+    vsync();
+    refresh_OAM();
+
+    if (MGM_states.book == MGM_INACTIVE && MGM_states.glasses == MGM_INACTIVE && MGM_states.mg_homework == MGM_INACTIVE && MGM_states.mg_leaves == MGM_INACTIVE && MGM_states.super == MGM_INACTIVE)
+    {
+      if (money < GAME_BOY_PRICE)
+        next_scene = GAME_OVER;
+    }
+  }
+}
