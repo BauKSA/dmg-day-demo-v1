@@ -1,21 +1,21 @@
 #pragma bank 2
 
-#include "../../include/player.h"
-#include "../../include/position.h"
-#include "../../include/scene.h"
-#include "../../include/animation.h"
-#include "../../include/render.h"
-#include "../../include/draw.h"
-#include "../../include/npcs.h"
-#include "../../include/language.h"
-#include "../../include/char_to_tile.h"
-#include "../../include/text_positions.h"
+#include "core/characters/player.h"
+#include "engine/position.h"
+#include "core/scenes/scene.h"
+#include "engine/animation.h"
+#include "engine/render.h"
+#include "engine/draw.h"
+#include "core/characters/npcs.h"
+#include "core/definitions/language.h"
+#include "core/utils/char_to_tile.h"
+#include "core/definitions/text_positions.h"
 
-#include "./language_select.h"
+#include "scenes/language_select/language_select.h"
 
-#include "../../assets/sprites/backgrounds/language_select/bkg_LanguageSelect.h"
-#include "../../assets/sprites/backgrounds/language_select/spr_language_arrow.h"
-#include "../../assets/chars/chars.h"
+#include "../assets/sprites/backgrounds/language_select/bkg_LanguageSelect.h"
+#include "../assets/sprites/backgrounds/language_select/spr_language_arrow.h"
+#include "../assets/chars/chars.h"
 
 #include <gb/gb.h>
 

@@ -1,4 +1,4 @@
-#include "../collision.h"
+#include "engine/collision.h"
 
 uint8_t check_collision(
     uint8_t x1, uint8_t y1,

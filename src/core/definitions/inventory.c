@@ -1,7 +1,8 @@
 #include <gb/gb.h>
 
-#include "../inventory.h"
-#include "../../assets/chars/items.h"
+#include "../assets/chars/items.h"
+
+#include "core/definitions/inventory.h"
 
 Slot inventory[MAX_ITEMS];
 

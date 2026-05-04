@@ -1,24 +1,25 @@
 #include <stddef.h>
 #include <gb/gb.h>
 
-#include "../npcs.h"
-#include "../npc_lines.h"
-#include "../name.h"
-#include "../input.h"
-#include "../scene_manager.h"
-#include "../language.h"
-#include "../entity.h"
-#include "../../assets/sprites/frames/text_frame.h"
-#include "../char_to_tile.h"
-#include "../text_positions.h"
-#include "../music.h"
-#include "../npc_stats_map.h"
-#include "../../assets/chars/chars.h"
-#include "../../assets/chars/numbers.h"
-#include "../../assets/sprites/backgrounds/npc_icons/npc_icons.h"
-#include "../../assets/chars/buttons.h"
+#include "../assets/sprites/frames/text_frame.h"
+#include "../assets/chars/chars.h"
+#include "../assets/chars/numbers.h"
+#include "../assets/sprites/backgrounds/npc_icons/npc_icons.h"
+#include "../assets/chars/buttons.h"
 
-#include "../../scenes/map/auto_clean.h"
+#include "core/characters/npcs.h"
+#include "core/characters/npc_lines.h"
+#include "core/definitions/name.h"
+#include "engine/input.h"
+#include "core/scenes/scene_manager.h"
+#include "core/definitions/language.h"
+#include "engine/entity.h"
+#include "core/utils/char_to_tile.h"
+#include "core/definitions/text_positions.h"
+#include "music.h"
+#include "core/characters/npc_stats_map.h"
+
+#include "maps/utils/auto_clean.h"
 
 Entity npc_1;
 Entity npc_2;

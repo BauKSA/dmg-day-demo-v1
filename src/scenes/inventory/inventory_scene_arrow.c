@@ -1,14 +1,13 @@
 #pragma bank 2
 
-#include "inventory_scene.h"
-#include "../../include/player.h"
-#include "../../include/position.h"
-#include "../../include/animation.h"
-#include "../../include/render.h"
-#include "../../include/draw.h"
-#include "../../include/npcs.h"
-
-#include "../../assets/sprites/backgrounds/language_select/spr_language_arrow.h"
+#include "scenes/inventory/inventory_scene.h"
+#include "core/characters/player.h"
+#include "engine/position.h"
+#include "engine/animation.h"
+#include "engine/render.h"
+#include "engine/draw.h"
+#include "core/characters/npcs.h"
+#include "../assets/sprites/backgrounds/language_select/spr_language_arrow.h"
 
 void InventoryScene_InitArrow()
 {

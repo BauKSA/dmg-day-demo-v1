@@ -1,6 +1,6 @@
 #pragma bank 6
 
-#include "./mg_timer.h"
+#include "mini_games/utils/mg_timer.h"
 
 uint16_t mgt_current_frame = 0;
 uint16_t mgt_target_frame = 0;

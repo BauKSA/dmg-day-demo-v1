@@ -5,7 +5,7 @@
 
 #include "engine/entity.h"
 #include "core/game.h"
-#include "core/scene.h"
+#include "core/scenes/scene.h"
 #include "core/definitions/inventory.h"
 
 void InventoryScene_Init(Scene *scene, Entity scene_player);

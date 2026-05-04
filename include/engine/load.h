@@ -6,7 +6,7 @@
 #include <stdint.h>
 #include <gb/gb.h>
 
-#include "entity.h"
+#include "engine/entity.h"
 #include "render.h"
 
 extern uint8_t vram_next_index; // siguiente slot libre en VRAM

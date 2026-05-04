@@ -1,19 +1,19 @@
 #include <gb/gb.h>
 #include <stdint.h>
 
-#include "inventory_scene.h"
+#include "scenes/inventory/inventory_scene.h"
 
-#include "../../include/input.h"
-#include "../../include/text_positions.h"
-#include "../../include/intermitent_text.h"
-#include "../../include/char_to_tile.h"
-#include "../../include/inventory.h"
-#include "../../include/language.h"
+#include "engine/input.h"
+#include "core/definitions/text_positions.h"
+#include "core/utils/intermitent_text.h"
+#include "core/utils/char_to_tile.h"
+#include "core/definitions/inventory.h"
+#include "core/definitions/language.h"
 
-#include "../../assets/sprites/backgrounds/template/template.h"
-#include "../../assets/chars/items.h"
-#include "../../assets/chars/chars.h"
-#include "../../assets/chars/buttons.h"
+#include "../assets/sprites/backgrounds/template/template.h"
+#include "../assets/chars/items.h"
+#include "../assets/chars/chars.h"
+#include "../assets/chars/buttons.h"
 
 static void SetItemName(Item item, uint8_t inventory_index)
 {

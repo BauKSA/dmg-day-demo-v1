@@ -2,7 +2,7 @@
 #define _SPEED_
 #include<stdlib.h>
 
-#include "./entity.h"
+#include "engine/entity.h"
 
 extern uint16_t speed[MAX_ENTITIES];
 

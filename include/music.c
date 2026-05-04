@@ -1,6 +1,6 @@
 #include <gb/gb.h>
 
-#include "../music.h"
+#include "music.h"
 
 void MiniGameWin()
 {

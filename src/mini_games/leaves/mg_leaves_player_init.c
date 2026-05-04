@@ -1,12 +1,15 @@
 #pragma bank 6
 
-#include "./mg_leaves.h"
-#include "../../../include/position.h"
-#include "core/characters/player.h"
-#include "../../../include/render.h"
-#include "engine/animation.h"
-#include "../../../include/speed.h"
 #include "../../../assets/sprites/mini_game/broom/broom.h"
+
+#include "engine/position.h"
+#include "engine/render.h"
+#include "engine/animation.h"
+#include "engine/speed.h"
+
+#include "core/characters/player.h"
+
+#include "mini_games/leaves/mg_leaves.h"
 
 void Mg_Leaves_Player_Init()
 {

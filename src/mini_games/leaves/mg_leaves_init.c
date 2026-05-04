@@ -2,15 +2,15 @@
 
 #include <gb/gb.h>
 
-#include "../../map/3-0/map_30.h"
-#include "../mg_instruction_set.h"
-#include "../mg_load_screen.h"
-#include "../mg_timer.h"
-#include "../mini_games.h"
-#include "mg_leaves.h"
+#include "maps/3-0/map_30.h"
+#include "mini_games/utils/mg_instruction_set.h"
+#include "mini_games/utils/mg_load_screen.h"
+#include "mini_games/utils/mg_timer.h"
+#include "mini_games/mini_games.h"
+#include "mini_games/leaves/mg_leaves.h"
 
 #include "core/characters/player.h"
-#include "../../../include/position.h"
+#include "engine/position.h"
 #include "core/scenes/scene.h"
 
 #include "../../../assets/chars/chars.h"
@@ -19,15 +19,15 @@
 #include "../../../assets/sprites/objects/leaf/spr_leaf_a.h"
 #include "../../../assets/sprites/objects/leaf/spr_leaf_b.h"
 
-#include "../../../include/char_to_tile.h"
+#include "core/utils/char_to_tile.h"
 #include "engine/draw.h"
-#include "../../../include/language.h"
-#include "../../../include/load.h"
-#include "../../../include/name.h"
-#include "../../../include/npc_lines.h"
+#include "core/definitions/language.h"
+#include "engine/load.h"
+#include "core/definitions/name.h"
+#include "core/characters/npc_lines.h"
 #include "core/characters/npc_stats_map.h"
 #include "core/characters/npcs.h"
-#include "../../../include/text_positions.h"
+#include "core/definitions/text_positions.h"
 
 uint8_t actor_ids[TOTAL_ACTORS];
 uint8_t actor_x[TOTAL_ACTORS];

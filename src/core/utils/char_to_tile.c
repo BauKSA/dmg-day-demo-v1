@@ -1,4 +1,4 @@
-#include "../char_to_tile.h"
+#include "core/utils/char_to_tile.h"
 
 int char_to_tile(char c)
 {

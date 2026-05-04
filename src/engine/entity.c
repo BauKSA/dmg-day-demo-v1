@@ -1,12 +1,13 @@
 #include <stdint.h>
 
-#include "../entity.h"
+#include "engine/entity.h"
 
 Entity next_entity_id = 0;
 
 Entity create_entity()
 {
-    if(next_entity_id >= MAX_ENTITIES) {
+    if (next_entity_id >= MAX_ENTITIES)
+    {
         return 0;
     }
 

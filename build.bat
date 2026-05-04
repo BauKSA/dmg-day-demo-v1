@@ -5,13 +5,15 @@ setlocal enabledelayedexpansion
 set GBDK_LCC="C:\Program Files\GBDK\bin\lcc.exe"
 set PROJECT_DIR=%~dp0
 set BUILD_DIR=%PROJECT_DIR%build
-set OBJ_DIR=%BUILD_DIR%\obj
-set LOG_FILE=%BUILD_DIR%\logs.txt
-set ROM_OUT=%BUILD_DIR%\game.gb
+set BIN_DIR=%PROJECT_DIR%bin
+set LOG_FILE=%BIN_DIR%\logs.txt
+set ROM_OUT=%BIN_DIR%\game.gb
 
 :: 2. Limpieza y preparación (esto no se loguea para que el log empiece limpio)
 if exist "%BUILD_DIR%" rmdir /s /q "%BUILD_DIR%"
-mkdir "%OBJ_DIR%"
+if exist "%BIN_DIR%" rmdir /s /q "%BIN_DIR%"
+mkdir "%BUILD_DIR%"
+mkdir "%BIN_DIR%"
 
 :: Abrimos un paréntesis para capturar TODO lo que pase adentro
 (
@@ -20,11 +22,11 @@ mkdir "%OBJ_DIR%"
     echo [1/3] Compilando cada archivo .c...
     for /R %%f in (*.c) do (
         echo Compilando: %%~nxf
-        %GBDK_LCC% -debug -c -o "build\obj\%%~nf.o" "%%f"
+        %GBDK_LCC% -Iinclude -debug -c -o "build\%%~nf.o" "%%f"
     )
 
     echo [2/3] Entrando a la carpeta de objetos...
-    pushd "%OBJ_DIR%"
+    pushd "%BUILD_DIR%"
 
     set REL_OBJS=
     for %%g in (*.o) do (
@@ -45,5 +47,5 @@ mkdir "%OBJ_DIR%"
 ) > "%LOG_FILE%" 2>&1
 
 :: Opcional: Avisar en consola que terminó, ya que la pantalla se quedará en blanco
-echo Proceso finalizado. Revisa build\logs.txt para ver los detalles.
+echo Proceso finalizado. Revisa bin\logs.txt para ver los detalles.
 if not exist "%ROM_OUT%" pause

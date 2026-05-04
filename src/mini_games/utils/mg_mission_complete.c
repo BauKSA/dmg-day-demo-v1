@@ -1,17 +1,18 @@
 #pragma bank 6
 
-#include "./mg_mission_complete.h"
-#include "../../assets/chars/chars.h"
-#include "../../assets/chars/numbers.h"
-#include "../../assets/sprites/backgrounds/npc_icons/npc_icons.h"
-#include "../../include/char_to_tile.h"
-#include "../../include/input.h"
-#include "../../include/language.h"
-#include "../../include/npcs.h"
-#include "../../include/music.h"
-#include "./mini_games.h"
+#include "../assets/chars/chars.h"
+#include "../assets/chars/numbers.h"
+#include "../assets/sprites/backgrounds/npc_icons/npc_icons.h"
 
-#include "../../assets/sprites/backgrounds/minigames/mission_complete/bkg_mission_complete.h"
+#include "mini_games/utils/mg_mission_complete.h"
+#include "core/utils/char_to_tile.h"
+#include "engine/input.h"
+#include "core/definitions/language.h"
+#include "core/characters/npcs.h"
+#include "music.h"
+#include "mini_games/mini_games.h"
+
+#include "../assets/sprites/backgrounds/minigames/mission_complete/bkg_mission_complete.h"
 
 #include <gb/gb.h>
 #include <stdint.h>

@@ -1,21 +1,23 @@
 #include <gb/gb.h>
 #include <stdint.h>
 
-#include "../../include/can_move.h"
-#include "../../include/position.h"
-#include "../../include/scene.h"
-#include "../../include/language.h"
-#include "../../include/text_positions.h"
-#include "../../include/char_to_tile.h"
-#include "../../include/inventory.h"
-#include "../../include/scene_manager.h"
-#include "../../include/player.h"
-#include "../../scenes/map/map_data.h"
-#include "../../scenes/map/auto_clean.h"
+#include "../assets/chars/numbers.h"
+#include "../assets/chars/chars.h"
 
-#include "../../include/text_positions.h"
-#include "../../assets/chars/numbers.h"
-#include "../../assets/chars/chars.h"
+#include "engine/position.h"
+
+#include "core/definitions/can_move.h"
+#include "core/definitions/inventory.h"
+#include "core/definitions/text_positions.h"
+#include "core/definitions/language.h"
+#include "core/definitions/text_positions.h"
+#include "core/scenes/scene.h"
+#include "core/scenes/scene_manager.h"
+#include "core/characters/player.h"
+#include "core/utils/char_to_tile.h"
+
+#include "maps/utils/map_data.h"
+#include "maps/utils/auto_clean.h"
 
 static inline uint8_t get_tile(MapData *data, int x, int y)
 {

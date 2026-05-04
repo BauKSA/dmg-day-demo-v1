@@ -1,5 +1,5 @@
-#include "./game.h"
-#include "./entity.h"
+#include "core/game.h"
+#include "engine/entity.h"
 
 #ifndef SCENE_H
 #define SCENE_H

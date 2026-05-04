@@ -1,6 +1,6 @@
 #pragma bank 3
 
-#include "./map_23_collision.h"
+#include "maps/2-3/map_23_collision.h"
 
 // FUNCIONANDO
 

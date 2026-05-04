@@ -1,4 +1,4 @@
-#include "../mgm_states.h"
+#include "core/definitions/mgm_states.h"
 
 AllMGMStates MGM_states;
 

@@ -1,0 +1,556 @@
+=== Iniciando compilación: lun 05/04/2026 20:06:45.62 ===
+[1/3] Compilando cada archivo .c...
+Compilando: buttons.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\assets\chars\buttons.h:11: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\assets\chars\buttons.c:21: warning 283: function declarator with no prototype
+Compilando: chars.c
+Compilando: items.c
+Compilando: numbers.c
+Compilando: gender_select-tilemap.c
+Compilando: gender_select-tileset.c
+Compilando: inventory_bkg.c
+Compilando: bkg_LanguageSelect.c
+Compilando: spr_language_arrow0.c
+Compilando: bkg_MainMenu.c
+Compilando: general_tileset.c
+Compilando: map_2-1.c
+Compilando: map_2-2.c
+Compilando: map_2-3.c
+Compilando: map_3-0.c
+Compilando: map_3-1.c
+Compilando: map_3-2.c
+Compilando: bkg_leaves_example.c
+Compilando: bkg_mission_complete.c
+Compilando: npc_icons.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\assets\sprites\backgrounds\npc_icons\npc_icons.c:27: warning 283: function declarator with no prototype
+Compilando: template-mg.c
+Compilando: template-tileset.c
+Compilando: bkg_you_win.c
+Compilando: text_frame.c
+Compilando: text_frame_init.c
+Compilando: broom.c
+Compilando: spr_garbage.c
+Compilando: leaf.c
+Compilando: spr_Firulais0.c
+Compilando: spr_FirulaisRun0.c
+Compilando: spr_FirulaisRun1.c
+Compilando: spr_flag0.c
+Compilando: spr_flag1.c
+Compilando: martin_npc_0.c
+Compilando: martin_npc_1.c
+Compilando: martin_npc_2.c
+Compilando: spr_ViejaEscoba0.c
+Compilando: spr_ViejaEscoba1.c
+Compilando: spr_ViejoDiario0.c
+Compilando: spr_acorn.c
+Compilando: spr_branch.c
+Compilando: spr_leaf_a.c
+Compilando: spr_leaf_b.c
+Compilando: spr_Player_down0.c
+Compilando: spr_Player_down1.c
+Compilando: spr_Player_down2.c
+Compilando: spr_Player_up0.c
+Compilando: spr_Player_up1.c
+Compilando: spr_Player_up2.c
+Compilando: music.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.h:10: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.h:11: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.h:13: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.h:14: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.h:15: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.h:16: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.h:17: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:5: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:26: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:47: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:84: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:115: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:124: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:132: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:141: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:150: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:159: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:168: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\include\music.c:177: warning 283: function declarator with no prototype
+Compilando: main.c
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+c:\users\bau_m\onedrive\desktop\gamedev\gameboy\dmg-day-demo-v1\assets\chars\buttons.h:11: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\main.c:34: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\main.c:82: warning 154: converting integral to pointer without a cast
+from type 'unsigned-char fixed'
+  to type 'unsigned-char generic* fixed'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\main.c:92: warning 154: converting integral to pointer without a cast
+from type 'unsigned-char fixed'
+  to type 'unsigned-char generic* fixed'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\main.c:79: warning 155: converting pointer to integral without a cast
+from type '_Bool near* fixed'
+  to type '_Bool auto'
+Compilando: extra_actors.c
+Compilando: load_extra.c
+Compilando: npcs.c
+include/../assets/chars/buttons.h:11: warning 283: function declarator with no prototype
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+include/music.h:10: warning 283: function declarator with no prototype
+include/music.h:11: warning 283: function declarator with no prototype
+include/music.h:12: warning 283: function declarator with no prototype
+include/music.h:13: warning 283: function declarator with no prototype
+include/music.h:14: warning 283: function declarator with no prototype
+include/music.h:15: warning 283: function declarator with no prototype
+include/music.h:16: warning 283: function declarator with no prototype
+include/music.h:17: warning 283: function declarator with no prototype
+include/maps/utils/auto_clean.h:8: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:33: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:166: warning 112: function 'cache_player_position' implicit declaration
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:93: warning 158: overflow in implicit constant conversion
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:94: warning 158: overflow in implicit constant conversion
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:166: warning 84: 'auto' variable 'cache_player_position' may be used before initialization
+Compilando: npc_lines.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+Compilando: player.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\player.c:11: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\player.c:109: warning 283: function declarator with no prototype
+Compilando: can_move.c
+Compilando: gender_selection.c
+Compilando: inventory.c
+Compilando: inventory_init.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\definitions\inventory_init.c:7: warning 283: function declarator with no prototype
+Compilando: language.c
+Compilando: market.c
+Compilando: mgm_states.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\definitions\mgm_states.c:5: warning 283: function declarator with no prototype
+Compilando: money.c
+Compilando: name.c
+Compilando: all_scenes.c
+Compilando: map_scenes.c
+include/scenes/main_menu/main_menu.h:13: warning 283: function declarator with no prototype
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:17: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:59: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\map_scenes.c:47: warning 126: unreachable code
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\map_scenes.c:52: warning 126: unreachable code
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\map_scenes.c:57: warning 126: unreachable code
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\map_scenes.c:62: warning 126: unreachable code
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\map_scenes.c:67: warning 126: unreachable code
+Compilando: scene_manager.c
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\scene_manager.c:20: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\scene_manager.c:72: warning 154: converting integral to pointer without a cast
+from type 'const-unsigned-char literal'
+  to type 'struct Scene generic* fixed'
+Compilando: action.c
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+include/music.h:10: warning 283: function declarator with no prototype
+include/music.h:11: warning 283: function declarator with no prototype
+include/music.h:12: warning 283: function declarator with no prototype
+include/music.h:13: warning 283: function declarator with no prototype
+include/music.h:14: warning 283: function declarator with no prototype
+include/music.h:15: warning 283: function declarator with no prototype
+include/music.h:16: warning 283: function declarator with no prototype
+include/music.h:17: warning 283: function declarator with no prototype
+Compilando: char_to_tile.c
+Compilando: intermitent_text.c
+Compilando: animation.c
+Compilando: collision.c
+Compilando: draw.c
+Compilando: entity.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\engine\entity.c:7: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\engine\entity.c:17: warning 283: function declarator with no prototype
+Compilando: input.c
+Compilando: load.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\engine\load.c:34: warning 283: function declarator with no prototype
+Compilando: position.c
+Compilando: random.c
+include/engine/random.h:5: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\engine\random.c:5: warning 283: function declarator with no prototype
+Compilando: render.c
+Compilando: speed.c
+Compilando: map_21.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_21_collision.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_21_create.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_21_init.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-1\map_21_init.c:35: warning 85: in function Map_21_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-1\map_21_init.c:35: warning 85: in function Map_21_Init unreferenced function argument : 'scene_player'
+Compilando: map_21_update.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+include/maps/utils/auto_clean.h:8: warning 283: function declarator with no prototype
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+Compilando: map_22.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_22_check_items.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-2\map_22_check_items.c:8: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-2\map_22_check_items.c:14: warning 112: function 'ItemNoUseText' implicit declaration
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-2\map_22_check_items.c:14: warning 84: 'auto' variable 'ItemNoUseText' may be used before initialization
+Compilando: map_22_collision.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_22_create.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_22_destroy.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-2\map_22_destroy.c:19: warning 85: in function Map_22_Destroy unreferenced function argument : 'scene'
+Compilando: map_22_dialogues.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-2\map_22_dialogues.c:24: warning 283: function declarator with no prototype
+Compilando: map_22_init.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-2\map_22_init.c:16: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-2\map_22_init.c:62: warning 85: in function Map_22_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-2\map_22_init.c:62: warning 85: in function Map_22_Init unreferenced function argument : 'scene_player'
+Compilando: map_22_init_npc.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-2\map_22_init_npc.c:15: warning 283: function declarator with no prototype
+Compilando: map_22_input.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-2\map_22_input.c:10: warning 283: function declarator with no prototype
+Compilando: map_22_update.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+include/maps/utils/auto_clean.h:8: warning 283: function declarator with no prototype
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+Compilando: map_23.c
+Compilando: map_23_collision.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_23_create.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-3\map_23_create.c:6: warning 283: function declarator with no prototype
+Compilando: map_23_dialogues.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-3\map_23_dialogues.c:18: warning 283: function declarator with no prototype
+Compilando: map_23_init.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-3\map_23_init.c:17: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-3\map_23_init.c:58: warning 85: in function Map_23_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-3\map_23_init.c:58: warning 85: in function Map_23_Init unreferenced function argument : 'scene_player'
+Compilando: map_23_init_npc.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-3\map_23_init_npc.c:14: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-3\map_23_init_npc.c:20: warning 185: comparison of 'signed char' with 'unsigned char' requires promotion to int
+Compilando: map_23_input.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\2-3\map_23_input.c:18: warning 283: function declarator with no prototype
+Compilando: map_23_update.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/auto_clean.h:8: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_30.c
+Compilando: map_30_collision.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_30_create.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_create.c:6: warning 283: function declarator with no prototype
+Compilando: map_30_destroy.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_destroy.c:23: warning 85: in function Map_30_Destroy unreferenced function argument : 'scene'
+Compilando: map_30_dialogues.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_dialogues.c:22: warning 283: function declarator with no prototype
+Compilando: map_30_init.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_init.c:20: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_init.c:51: warning 85: in function Map_30_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_init.c:51: warning 85: in function Map_30_Init unreferenced function argument : 'scene_player'
+Compilando: map_30_init_npc.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_init_npc.c:17: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_init_npc.c:27: warning 185: comparison of 'signed char' with 'unsigned char' requires promotion to int
+Compilando: map_30_input.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_input.c:13: warning 283: function declarator with no prototype
+Compilando: map_30_update.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+include/maps/utils/auto_clean.h:8: warning 283: function declarator with no prototype
+Compilando: map_31.c
+Compilando: map_31_collision.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_31_create.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-1\map_31_create.c:6: warning 283: function declarator with no prototype
+Compilando: map_31_dialogues.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-1\map_31_dialogues.c:21: warning 283: function declarator with no prototype
+Compilando: map_31_init.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-1\map_31_init.c:39: warning 85: in function Map_31_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-1\map_31_init.c:39: warning 85: in function Map_31_Init unreferenced function argument : 'scene_player'
+Compilando: map_31_init_npcs.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-1\map_31_init_npcs.c:16: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-1\map_31_init_npcs.c:22: warning 185: comparison of 'signed char' with 'unsigned char' requires promotion to int
+Compilando: map_31_update.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+include/maps/utils/auto_clean.h:8: warning 283: function declarator with no prototype
+Compilando: map_32.c
+Compilando: map_32_collision.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_32_create.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-2\map_32_create.c:6: warning 283: function declarator with no prototype
+Compilando: map_32_init.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-2\map_32_init.c:37: warning 85: in function Map_32_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-2\map_32_init.c:37: warning 85: in function Map_32_Init unreferenced function argument : 'scene_player'
+Compilando: map_32_update.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+include/maps/utils/auto_clean.h:8: warning 283: function declarator with no prototype
+Compilando: auto_clean.c
+include/maps/utils/auto_clean.h:8: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\auto_clean.c:7: warning 283: function declarator with no prototype
+Compilando: clean_text.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\clean_text.c:5: warning 283: function declarator with no prototype
+Compilando: item_no_use.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\item_no_use.c:12: warning 283: function declarator with no prototype
+Compilando: map_collision.c
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+include/maps/utils/auto_clean.h:8: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\map_collision.c:24: warning 60: function return value mismatch
+from type 'const-unsigned-char [20] fixed'
+  to type 'unsigned-char fixed'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\map_collision.c:54: warning 112: function 'ItemNoUseText' implicit declaration
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\map_collision.c:54: warning 84: 'auto' variable 'ItemNoUseText' may be used before initialization
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\map_collision.c:80: warning 85: in function Map_Collision unreferenced function argument : 'scene'
+Compilando: map_data.c
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+Compilando: map_player_movement.c
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\map_player_movement.c:12: warning 283: function declarator with no prototype
+Compilando: mini_games.c
+Compilando: mg_leaves.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:17: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:59: warning 283: function declarator with no prototype
+Compilando: mg_leaves_create.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:17: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:59: warning 283: function declarator with no prototype
+Compilando: mg_leaves_init.c
+include/mini_games/utils/mg_timer.h:13: warning 283: function declarator with no prototype
+include/mini_games/utils/mg_timer.h:14: warning 283: function declarator with no prototype
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:17: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:59: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_init.c:66: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_init.c:67: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_init.c:77: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_init.c:78: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_init.c:103: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_init.c:104: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_init.c:113: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_init.c:114: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_init.c:170: warning 85: in function Mg_Leaves_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_init.c:170: warning 85: in function Mg_Leaves_Init unreferenced function argument : 'scene_player'
+Compilando: mg_leaves_load_bkg.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:17: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:59: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_load_bkg.c:7: warning 283: function declarator with no prototype
+Compilando: mg_leaves_player_init.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:17: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:59: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_player_init.c:14: warning 283: function declarator with no prototype
+Compilando: mg_leaves_update.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/engine/random.h:5: warning 283: function declarator with no prototype
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+include/mini_games/utils/mg_timer.h:13: warning 283: function declarator with no prototype
+include/mini_games/utils/mg_timer.h:14: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:17: warning 283: function declarator with no prototype
+include/mini_games/leaves/mg_leaves.h:59: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_update.c:76: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_update.c:106: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_update.c:215: warning 185: comparison of 'signed char' with 'unsigned char' requires promotion to int
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\leaves\mg_leaves_update.c:290: warning 85: in function Mg_Leaves_Update unreferenced function argument : 'scene'
+Compilando: mg_instruction_set.c
+include/../assets/chars/buttons.h:11: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_instruction_set.c:74: warning 158: overflow in implicit constant conversion
+Compilando: mg_load_screen.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_load_screen.c:15: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_load_screen.c:28: warning 283: function declarator with no prototype
+Compilando: mg_mission_complete.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/music.h:10: warning 283: function declarator with no prototype
+include/music.h:11: warning 283: function declarator with no prototype
+include/music.h:12: warning 283: function declarator with no prototype
+include/music.h:13: warning 283: function declarator with no prototype
+include/music.h:14: warning 283: function declarator with no prototype
+include/music.h:15: warning 283: function declarator with no prototype
+include/music.h:16: warning 283: function declarator with no prototype
+include/music.h:17: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_mission_complete.c:154: warning 283: function declarator with no prototype
+Compilando: mg_player_movement.c
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+Compilando: mg_set_coins_reward.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+Compilando: mg_timer.c
+include/mini_games/utils/mg_timer.h:13: warning 283: function declarator with no prototype
+include/mini_games/utils/mg_timer.h:14: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_timer.c:17: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_timer.c:29: warning 283: function declarator with no prototype
+Compilando: gender_select.c
+Compilando: gender_select_init.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\gender_select\gender_select_init.c:15: warning 85: in function GenderSelect_Init unreferenced function argument : 'player'
+Compilando: gender_select_update.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\gender_select\gender_select_update.c:10: warning 85: in function GenderSelect_Update unreferenced function argument : 'scene'
+Compilando: inventory_new_item.c
+include/../assets/chars/buttons.h:11: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:26: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:27: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:30: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:31: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:34: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:35: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:38: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:39: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:45: warning 84: 'auto' variable 'name_en' may be used before initialization
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:50: warning 84: 'auto' variable 'name_es' may be used before initialization
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:122: warning 158: overflow in implicit constant conversion
+Compilando: inventory_scene.c
+Compilando: inventory_scene_arrow.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_arrow.c:12: warning 283: function declarator with no prototype
+Compilando: inventory_scene_create.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_create.c:5: warning 283: function declarator with no prototype
+Compilando: inventory_scene_draw_coins.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_draw_coins.c:11: warning 283: function declarator with no prototype
+Compilando: inventory_scene_init.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_init.c:82: warning 85: in function InventoryScene_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_init.c:82: warning 85: in function InventoryScene_Init unreferenced function argument : 'scene_player'
+Compilando: inventory_scene_input.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_input.c:22: warning 283: function declarator with no prototype
+Compilando: inventory_scene_update.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_update.c:13: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_update.c:40: warning 85: in function InventoryScene_Update unreferenced function argument : 'scene'
+Compilando: language_select.c
+Compilando: language_select_create.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\language_select\language_select_create.c:5: warning 283: function declarator with no prototype
+Compilando: language_select_init.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\language_select\language_select_init.c:45: warning 85: in function LanguageSelect_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\language_select\language_select_init.c:45: warning 85: in function LanguageSelect_Init unreferenced function argument : 'scene_player'
+Compilando: language_select_input.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
+include/maps/utils/map_data.h:48: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\language_select\language_select_input.c:20: warning 283: function declarator with no prototype
+Compilando: language_select_update.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\language_select\language_select_update.c:8: warning 85: in function LanguageSelect_Update unreferenced function argument : 'scene'
+Compilando: main_menu.c
+include/scenes/main_menu/main_menu.h:13: warning 283: function declarator with no prototype
+Compilando: main_menu_create.c
+include/scenes/main_menu/main_menu.h:13: warning 283: function declarator with no prototype
+Compilando: main_menu_destroy.c
+include/scenes/main_menu/main_menu.h:13: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\main_menu\main_menu_destroy.c:11: warning 85: in function MainMenu_Destroy unreferenced function argument : 'scene'
+Compilando: main_menu_init.c
+include/scenes/main_menu/main_menu.h:13: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\main_menu\main_menu_init.c:12: warning 85: in function MainMenu_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\main_menu\main_menu_init.c:12: warning 85: in function MainMenu_Init unreferenced function argument : 'scene_player'
+Compilando: main_menu_init_stats.c
+include/scenes/main_menu/main_menu.h:13: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\main_menu\main_menu_init_stats.c:5: warning 283: function declarator with no prototype
+Compilando: main_menu_input.c
+include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
+include/engine/random.h:5: warning 283: function declarator with no prototype
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+include/scenes/main_menu/main_menu.h:13: warning 283: function declarator with no prototype
+Compilando: main_menu_update.c
+include/scenes/main_menu/main_menu.h:13: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\main_menu\main_menu_update.c:39: warning 85: in function MainMenu_Update unreferenced function argument : 'scene'
+Compilando: story.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story.c:14: warning 283: function declarator with no prototype
+Compilando: story_init.c
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:20: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:21: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:22: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:23: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:24: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:25: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:29: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:30: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:31: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:32: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:33: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:34: warning 196: pointer target lost const qualifier
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:40: warning 85: in function Story_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_init.c:40: warning 85: in function Story_Init unreferenced function argument : 'player'
+Compilando: story_update.c
+include/../assets/chars/buttons.h:11: warning 283: function declarator with no prototype
+include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_update.c:22: warning 85: in function Story_Update unreferenced function argument : 'scene'
+[2/3] Entrando a la carpeta de objetos...
+[3/3] Linkeando ROM...
+=== EXITO: ROM GENERADA ===

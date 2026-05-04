@@ -1,11 +1,11 @@
-#include "../action.h"
+#include "engine/input.h"
+#include "engine/speed.h"
 
-#include "../player.h"
-#include "../scene_manager.h"
-#include "../can_move.h"
-#include "../input.h"
-#include "../speed.h"
-#include "../music.h"
+#include "core/utils/action.h"
+#include "core/characters/player.h"
+#include "core/scenes/scene_manager.h"
+#include "core/definitions/can_move.h"
+#include "music.h"
 
 Direction current_direction = DIR_NONE;
 uint16_t target_pos = 0;

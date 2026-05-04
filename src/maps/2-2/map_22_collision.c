@@ -1,8 +1,8 @@
 #pragma bank 3
 
-#include "./map_22_collision.h"
+#include "maps/2-2/map_22_collision.h"
 
-//FUNCIONANDO
+// FUNCIONANDO
 
 /* ------------------------------------------------------------------------- */
 /* Columnas:      0  1  2  3  4  5  6  7  8  9 10 11 12 13 14 15 16 17 18 19 */

@@ -2,11 +2,11 @@
 
 #include <gb/gb.h>
 
-#include "../../include/scene.h"
+#include "core/scenes/scene.h"
 
-#include "gender_select.h"
+#include "scenes/gender_select/gender_select.h"
 
-#include "../../assets/sprites/backgrounds/gender_select/gender_select_map.h"
+#include "../assets/sprites/backgrounds/gender_select/gender_select_map.h"
 
 void GenderSelect_Init(Scene *scene, Entity player)
 {

@@ -1,9 +1,10 @@
-#include "item_no_use.h"
+#include "maps/utils/item_no_use.h"
 
-#include "../../include/language.h"
-#include "../../include/text_positions.h"
-#include "../../include/char_to_tile.h"
-#include "../../assets/chars/chars.h"
+#include "../assets/chars/chars.h"
+
+#include "core/definitions/language.h"
+#include "core/definitions/text_positions.h"
+#include "core/utils/char_to_tile.h"
 
 #include <gb/gb.h>
 #include <stdint.h>

@@ -1,8 +1,14 @@
 #include <stdint.h>
 #include <gb/gb.h>
 
-#include "../draw.h"
-#include "../extra_actor.h"
+#include "engine/draw.h"
+
+// TODO:
+// Acá habría que o mover extra actors a engine o mover draw_extra a core...
+// Creo que lo mejor sería mover todo a engine, ya que el draw_extra toca
+// el motor.
+
+#include "core/characters/extra_actor.h"
 
 void draw_actor(Entity e)
 {
@@ -56,8 +62,8 @@ void draw_extra(uint8_t index, int8_t x, int8_t y, uint8_t tiles, uint8_t vertic
 {
     // Recuperamos info
     uint8_t tile_start = extra_actors[index].tile_index;
-    
-    uint8_t hardware_start_offset = MAX_ENTITIES * 4;     
+
+    uint8_t hardware_start_offset = MAX_ENTITIES * 4;
     uint8_t base = hardware_start_offset + (index * tiles);
 
     // Límite de Game Boy es 40 sprites

@@ -1,3 +1,3 @@
-#include "inventory_scene.h"
+#include "scenes/inventory/inventory_scene.h"
 
 Scene InventoryScene;

@@ -1,8 +1,12 @@
 #include <stdint.h>
 #include <gb/gb.h>
 
-#include "../load.h"
-#include "../extra_actor.h"
+#include "engine/load.h"
+
+// TODO:
+// Habría que mover extra_actor a engine
+
+#include "core/characters/extra_actor.h"
 
 uint8_t vram_next_index = 0; // siguiente slot libre en VRAM
 uint8_t vram_extra_start = 27;

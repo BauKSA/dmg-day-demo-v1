@@ -1,16 +1,16 @@
 #pragma bank 3
 
-#include "map_21.h"
-#include "map_21_collision.h"
+#include "../../../assets/sprites/backgrounds/maps/2-1/map_2-1.h"
 
-#include "../map_data.h"
+#include "maps/2-1/map_21.h"
+#include "maps/2-1/map_21_collision.h"
+
+#include "maps/utils/map_data.h"
 
 #include "core/scenes/scene.h"
 #include "core/scenes/all_scenes.h"
 #include "core/characters/player.h"
 #include "engine/draw.h"
-
-#include "../../../assets/sprites/backgrounds/maps/2-1/map_2-1.h"
 
 void Map_21_Init(Scene *scene, Entity scene_player)
 {

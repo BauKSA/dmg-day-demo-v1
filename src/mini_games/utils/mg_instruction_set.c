@@ -1,13 +1,16 @@
 #pragma bank 6
 
-#include "./mg_instruction_set.h"
-#include "../../include/char_to_tile.h"
-#include "../../assets/chars/chars.h"
-#include "../../assets/chars/numbers.h"
-#include "../../assets/chars/buttons.h"
-#include "../../assets/sprites/backgrounds/template/template_mg.h"
-#include "../../include/input.h"
-#include "../../include/language.h"
+#include "../assets/chars/chars.h"
+#include "../assets/chars/numbers.h"
+#include "../assets/chars/buttons.h"
+#include "../assets/sprites/backgrounds/template/template_mg.h"
+
+#include "engine/input.h"
+
+#include "core/utils/char_to_tile.h"
+#include "core/definitions/language.h"
+
+#include "mini_games/utils/mg_instruction_set.h"
 
 #include <gb/gb.h>
 

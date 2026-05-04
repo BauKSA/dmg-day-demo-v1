@@ -1,8 +1,8 @@
 #pragma bank 6
 
-#include "mg_set_coins_reward.h"
-#include "../../include/money.h"
-#include "../../include/npcs.h"
+#include "mini_games/utils/mg_set_coins_reward.h"
+#include "core/definitions/money.h"
+#include "core/characters/npcs.h"
 #include <stdint.h>
 
 uint16_t Mg_SetCoinsReward(uint8_t npc_map, uint8_t success)

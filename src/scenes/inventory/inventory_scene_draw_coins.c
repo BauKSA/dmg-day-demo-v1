@@ -1,12 +1,12 @@
 #pragma bank 2
 
-#include "inventory_scene.h"
+#include "scenes/inventory/inventory_scene.h"
 
 #include <gb/gb.h>
 #include <stdint.h>
 
-#include "../../assets/chars/numbers.h"
-#include "../../include/money.h"
+#include "../assets/chars/numbers.h"
+#include "core/definitions/money.h"
 
 void InventoryScene_DrawCoins()
 {

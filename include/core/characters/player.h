@@ -5,11 +5,11 @@
 #ifndef PLAYER_H
 #define PLAYER_H
 
-#include "animation.h"
-#include "entity.h"
-#include "load.h"
-#include "position.h"
-#include "render.h"
+#include "engine/animation.h"
+#include "engine/entity.h"
+#include "engine/load.h"
+#include "engine/position.h"
+#include "engine/render.h"
 
 // Player DOWN animation sprites
 #include "../assets/sprites/player/girl/down/spr_Player_down0.h"
@@ -26,7 +26,8 @@ extern Entity mg_player;
 
 extern uint8_t player_y_cache;
 
-typedef struct {
+typedef struct
+{
   uint8_t DOWN_STAY;
   uint8_t DOWN_WALKING;
   uint8_t UP_STAY;

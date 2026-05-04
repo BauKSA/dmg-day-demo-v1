@@ -1,7 +1,7 @@
 #pragma bank 2
 
-#include "gender_select.h"
-#include "../../include/scene.h"
+#include "scenes/gender_select/gender_select.h"
+#include "core/scenes/scene.h"
 
 Scene GenderSelect;
 

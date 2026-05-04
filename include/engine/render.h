@@ -7,7 +7,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#include "entity.h"
+#include "engine/entity.h"
 
 #define MAX_TILES_PER_ACTOR 4
 

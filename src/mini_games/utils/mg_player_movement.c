@@ -2,11 +2,11 @@
 
 #include <gb/gb.h>
 
-#include "../../include/action.h"
-#include "../../include/input.h"
-#include "../../include/player.h"
-#include "../../include/scene_manager.h"
-#include "./mg_player_movement.h"
+#include "core/utils/action.h"
+#include "engine/input.h"
+#include "core/characters/player.h"
+#include "core/scenes/scene_manager.h"
+#include "mini_games/utils/mg_player_movement.h"
 
 void Mg_PlayerMovement(uint8_t horizontal, uint8_t vertical)
 {

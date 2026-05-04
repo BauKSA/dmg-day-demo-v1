@@ -1,4 +1,4 @@
-#include "../market.h"
+#include "core/definitions/market.h"
 
 MarketItem items_to_buy[ITEMS_TO_BUY] = {
     MKT_SODA,

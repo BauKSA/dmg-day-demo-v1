@@ -1,8 +1,10 @@
 #pragma bank 6
 
-#include "mg_leaves.h"
 #include "core/scenes/scene.h"
-#include "../../../include/minigames.h"
+#include "core/definitions/mgm_states.h"
+
+#include "mini_games/leaves/mg_leaves.h"
+#include "mini_games/mini_games.h"
 
 void Mg_Leaves_Create(void)
 {
@@ -10,5 +12,5 @@ void Mg_Leaves_Create(void)
     Mg_Leaves.update = Mg_Leaves_Update;
     Mg_Leaves.bank = 6;
 
-    minigame_list[LSMG_LEAVES] = 1;
+    MGM_states.mg_leaves = MGM_ACTIVE;
 }

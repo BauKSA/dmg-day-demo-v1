@@ -1,11 +1,11 @@
 #pragma bank 6
 
-#include "./mg_load_screen.h"
+#include "mini_games/utils/mg_load_screen.h"
 #include <gb/gb.h>
 #include <stdint.h>
 
-#include "../../assets/chars/numbers.h"
-#include "../../assets/sprites/backgrounds/template/template_mg.h"
+#include "../assets/chars/numbers.h"
+#include "../assets/sprites/backgrounds/template/template_mg.h"
 
 uint8_t mgl_current_frame = 0;
 uint8_t mgl_target_frame = 180;

@@ -1,10 +1,10 @@
 #pragma bank 7
 
-#include "../../assets/sprites/backgrounds/template/template.h"
-#include "../../assets/sprites/frames/text_frame.h"
-#include "./story.h"
+#include "../assets/sprites/backgrounds/template/template.h"
+#include "../assets/sprites/frames/text_frame.h"
+#include "scenes/story/story.h"
 
-#include "../../include/language.h"
+#include "core/definitions/language.h"
 
 #include <gb/gb.h>
 
@@ -28,12 +28,12 @@ void Story_Init(Scene *scene, Entity player)
     {
         story_lines[0] = "new game boy is";
         story_lines[1] = "out today! i will";
-        story_lines[2] = "bunk off school"; 
+        story_lines[2] = "bunk off school";
         story_lines[3] = "and try to get";
         story_lines[4] = "some money so i";
         story_lines[5] = "can buy it";
     }
-    
+
     story_lines_count = 6;
     ended = 0;
     actual_story_line = 0;

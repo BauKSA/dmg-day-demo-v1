@@ -5,7 +5,7 @@
 #ifndef POSITION_H
 #define POSITION_H
 
-#include "entity.h"
+#include "engine/entity.h"
 
 typedef struct {
   uint8_t x[MAX_ENTITIES];

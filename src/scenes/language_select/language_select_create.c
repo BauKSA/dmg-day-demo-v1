@@ -1,6 +1,6 @@
 #pragma bank 2
 
-#include "language_select.h"
+#include "scenes/language_select/language_select.h"
 
 void LanguageSelect_Create()
 {

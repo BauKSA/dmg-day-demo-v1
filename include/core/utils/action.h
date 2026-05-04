@@ -3,10 +3,10 @@
 #ifndef ACTION_H
 #define ACTION_H
 
-#include "entity.h"
-#include "position.h"
-#include "player.h"
-#include "animation.h"
+#include "engine/entity.h"
+#include "engine/position.h"
+#include "core/characters/player.h"
+#include "engine/animation.h"
 
 extern uint8_t MOVE_SPEED;
 

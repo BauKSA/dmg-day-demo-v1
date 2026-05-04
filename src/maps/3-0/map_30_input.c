@@ -7,7 +7,7 @@
 #include "core/characters/npc_stats_map.h"
 #include "core/characters/npcs.h"
 
-#include "maps/3-0/map_data.h"
+#include "maps/utils/map_data.h"
 #include "maps/3-0/map_30.h"
 
 void Map_30_CheckInput()

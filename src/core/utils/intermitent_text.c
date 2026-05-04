@@ -1,6 +1,8 @@
-#include "../intermitent_text.h"
-#include "../../assets/chars/chars.h"
-#include "../char_to_tile.h"
+#include "../assets/chars/chars.h"
+
+#include "core/utils/intermitent_text.h"
+#include "core/utils/char_to_tile.h"
+
 #include <gb/gb.h>
 
 void IntermitentText_Init(uint8_t x_start, uint8_t y, char *text, uint8_t rate)

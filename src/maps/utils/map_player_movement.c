@@ -1,11 +1,13 @@
 #include <gb/gb.h>
 
-#include "../../include/action.h"
-#include "../../include/all_scenes.h"
-#include "../../include/input.h"
-#include "../../include/player.h"
-#include "../../include/scene_manager.h"
-#include "./map_player_movement.h"
+#include "engine/input.h"
+
+#include "core/utils/action.h"
+#include "core/scenes/all_scenes.h"
+#include "core/characters/player.h"
+#include "core/scenes/scene_manager.h"
+
+#include "maps/utils/map_player_movement.h"
 
 void Map_PlayerMovement()
 {

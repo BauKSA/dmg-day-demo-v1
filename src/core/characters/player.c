@@ -1,6 +1,6 @@
-#include "../player.h"
-#include "../position.h"
-#include "../speed.h"
+#include "core/characters/player.h"
+#include "engine/position.h"
+#include "engine/speed.h"
 
 Entity player;
 Entity mg_player;

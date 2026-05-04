@@ -1,14 +1,14 @@
 #pragma bank 2
 
-#include "inventory_scene.h"
-#include "../../include/scene.h"
-#include "../../include/inventory.h"
-#include "../../include/draw.h"
-#include "../../include/npcs.h"
-#include "../../include/language.h"
-#include "../../include/char_to_tile.h"
-#include "../../include/text_positions.h"
-#include "../../assets/chars/chars.h"
+#include "scenes/inventory/inventory_scene.h"
+#include "core/scenes/scene.h"
+#include "core/definitions/inventory.h"
+#include "engine/draw.h"
+#include "core/characters/npcs.h"
+#include "core/definitions/language.h"
+#include "core/utils/char_to_tile.h"
+#include "core/definitions/text_positions.h"
+#include "../assets/chars/chars.h"
 
 static void clean_inventory_name()
 {

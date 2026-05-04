@@ -1,7 +1,7 @@
 #ifndef _NPCS_
 #define _NPCS_
-#include "./entity.h"
-#include "./all_scenes.h"
+#include "engine/entity.h"
+#include "core/scenes/all_scenes.h"
 
 #define MAX_NPCS 12
 

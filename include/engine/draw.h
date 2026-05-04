@@ -6,10 +6,10 @@
 #include <stdint.h>
 #include <gb/gb.h>
 
-#include "entity.h"
-#include "position.h"
+#include "engine/entity.h"
+#include "engine/position.h"
 #include "render.h"
-#include "animation.h"
+#include "engine/animation.h"
 
 #define SPRITE_LIMIT 36
 

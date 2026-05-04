@@ -1,3 +1,3 @@
-#include "../language.h"
+#include "core/definitions/language.h"
 
 Languages language = ENGLISH;

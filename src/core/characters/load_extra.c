@@ -1,7 +1,7 @@
 #pragma bank 6
 
-#include "../load.h"
-#include "../extra_actor.h"
+#include "engine/load.h"
+#include "core/characters/extra_actor.h"
 
 uint8_t load_extra_tiles(uint8_t id, const unsigned char *tiles, uint8_t num_tiles)
 {

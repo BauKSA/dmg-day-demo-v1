@@ -1,6 +1,6 @@
 #include <stdint.h>
 
-#include "entity.h"
+#include "engine/entity.h"
 #include "load.h"
 
 #ifndef ANIMATION_H

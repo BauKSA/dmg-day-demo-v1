@@ -3,10 +3,10 @@
 #include <gb/gb.h>
 #include <stdlib.h>
 
-#include "./mini_games.h"
-#include "../../include/char_to_tile.h"
-#include "../../include/text_positions.h"
-#include "../../assets/chars/chars.h"
+#include "mini_games/mini_games.h"
+#include "core/utils/char_to_tile.h"
+#include "core/definitions/text_positions.h"
+#include "../assets/chars/chars.h"
 
 void Mg_SetTitle(char title[MAX_SIZE_MG_TITLE])
 {

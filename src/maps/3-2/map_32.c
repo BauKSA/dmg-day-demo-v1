@@ -1,4 +1,4 @@
-#include "./map_32.h"
+#include "maps/3-2/map_32.h"
 #include "core/scenes/scene.h"
 #include "core/definitions/mgm_states.h"
 

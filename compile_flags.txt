@@ -1,3 +1,4 @@
+-I/include
 -I/usr/share/gbdk-2020/include
 _I/usr/share/gbdk-2020/include/asm
 -D__PORT_sm83

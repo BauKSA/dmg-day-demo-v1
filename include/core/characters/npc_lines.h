@@ -1,7 +1,7 @@
 #ifndef _NPCDIALOGUES_
 #define _NPCDIALOGUES_
-#include "./npcs.h"
-#include "./scene.h"
+#include "core/characters/npcs.h"
+#include "core/scenes/scene.h"
 
 typedef char Line[19];
 typedef Line Dialogue[2];

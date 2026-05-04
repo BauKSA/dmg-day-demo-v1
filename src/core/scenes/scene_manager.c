@@ -1,15 +1,17 @@
 #include <gb/gb.h>
 
-#include "../draw.h"
-#include "../input.h"
-#include "../load.h"
-#include "../npcs.h"
-#include "../player.h"
-#include "../position.h"
-#include "../scene.h"
-#include "../scene_manager.h"
+#include "engine/draw.h"
+#include "engine/input.h"
+#include "engine/load.h"
+#include "engine/position.h"
 
-#include "../../assets/sprites/backgrounds/maps/general_tileset.h"
+#include "core/scenes/scene.h"
+#include "core/scenes/scene_manager.h"
+
+#include "core/characters/npcs.h"
+#include "core/characters/player.h"
+
+#include "../assets/sprites/backgrounds/maps/general_tileset.h"
 
 enum AllScenes next_scene = NONE;
 SceneManager scene_manager;

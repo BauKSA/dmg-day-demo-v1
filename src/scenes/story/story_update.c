@@ -1,13 +1,13 @@
 #pragma bank 7
 
-#include "../../assets/chars/chars.h"
-#include "../../assets/chars/buttons.h"
-#include "../../include/all_scenes.h"
-#include "../../include/char_to_tile.h"
-#include "../../include/player.h"
-#include "../../include/scene_manager.h"
-#include "../../include/input.h"
-#include "./story.h"
+#include "../assets/chars/chars.h"
+#include "../assets/chars/buttons.h"
+#include "core/scenes/all_scenes.h"
+#include "core/utils/char_to_tile.h"
+#include "core/characters/player.h"
+#include "core/scenes/scene_manager.h"
+#include "engine/input.h"
+#include "scenes/story/story.h"
 
 #include <gb/gb.h>
 

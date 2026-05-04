@@ -13,7 +13,7 @@
 #include "maps/utils/auto_clean.h"
 #include "maps/utils/map_player_movement.h"
 
-#include "./map_32.h"
+#include "maps/3-2/map_32.h"
 
 void Map_32_Update(Scene *scene)
 {

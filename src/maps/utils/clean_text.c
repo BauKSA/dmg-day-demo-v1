@@ -1,5 +1,5 @@
-#include "../../include/text_positions.h"
-#include "./map_data.h"
+#include "core/definitions/text_positions.h"
+#include "maps/utils/map_data.h"
 #include <gb/gb.h>
 
 void Map_Clean()

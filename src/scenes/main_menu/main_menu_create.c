@@ -1,7 +1,7 @@
 #pragma bank 2
 
-#include "./main_menu.h"
-#include "../../include/scene.h"
+#include "scenes/main_menu/main_menu.h"
+#include "core/scenes/scene.h"
 
 void MainMenu_Create(void)
 {

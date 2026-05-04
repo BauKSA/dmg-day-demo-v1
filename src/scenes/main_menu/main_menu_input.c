@@ -3,14 +3,14 @@
 #include <gb/gb.h>
 #include <stdlib.h>
 
-#include "../../include/input.h"
-#include "../../include/language.h"
-#include "../../include/npcs.h"
-#include "../../include/player.h"
-#include "../../include/random.h"
-#include "../../include/scene.h"
-#include "../../include/scene_manager.h"
-#include "./main_menu.h"
+#include "engine/input.h"
+#include "core/definitions/language.h"
+#include "core/characters/npcs.h"
+#include "core/characters/player.h"
+#include "engine/random.h"
+#include "core/scenes/scene.h"
+#include "core/scenes/scene_manager.h"
+#include "scenes/main_menu/main_menu.h"
 
 void MainMenu_CheckInput(void)
 {

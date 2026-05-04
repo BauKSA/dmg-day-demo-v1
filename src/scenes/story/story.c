@@ -1,5 +1,5 @@
-#include "./story.h"
-#include "../../include/scene.h"
+#include "scenes/story/story.h"
+#include "core/scenes/scene.h"
 #include <stdint.h>
 
 Scene Story;

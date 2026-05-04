@@ -5,7 +5,7 @@
 #include "engine/draw.h"
 
 #include "core/scenes/all_scenes.h"
-#include "core/scene.h"
+#include "core/scenes/scene.h"
 #include "core/characters/player.h"
 
 #include "maps/3-1/map_31.h"

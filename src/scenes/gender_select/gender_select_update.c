@@ -2,8 +2,8 @@
 
 #include <gb/gb.h>
 
-#include "../../include/scene.h"
-#include "gender_select.h"
+#include "core/scenes/scene.h"
+#include "scenes/gender_select/gender_select.h"
 
 void GenderSelect_Update(Scene *scene)
 {

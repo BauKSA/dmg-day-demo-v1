@@ -1,7 +1,7 @@
-#include "./all_scenes.h"
-#include "./entity.h"
-#include "./game.h"
-#include "./scene.h"
+#include "core/scenes/all_scenes.h"
+#include "engine/entity.h"
+#include "core/game.h"
+#include "core/scenes/scene.h"
 #include <stdint.h>
 
 #ifndef SCENE_MANAGER_H

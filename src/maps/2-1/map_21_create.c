@@ -1,6 +1,6 @@
 #pragma bank 3
 
-#include "map_21.h"
+#include "maps/2-1/map_21.h"
 #include "core/scenes/scene.h"
 
 void Map_21_Create(void)

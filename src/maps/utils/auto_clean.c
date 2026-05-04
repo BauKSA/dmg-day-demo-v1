@@ -1,5 +1,5 @@
-#include "auto_clean.h"
-#include "./map_data.h"
+#include "maps/utils/auto_clean.h"
+#include "maps/utils/map_data.h"
 
 uint8_t auto_clean_timer = 0;
 uint8_t auto_clean_rate = 250;

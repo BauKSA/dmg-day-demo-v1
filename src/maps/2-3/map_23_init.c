@@ -10,7 +10,7 @@
 #include "core/characters/npcs.h"
 #include "core/characters/player.h"
 #include "core/scenes/scene.h"
-#include "core/utils/input.h"
+#include "engine/input.h"
 
 #include "../../../assets/sprites/backgrounds/maps/2-3/map_2-3.h"
 

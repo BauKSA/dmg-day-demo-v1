@@ -1,5 +1,5 @@
-#include "./main_menu.h"
-#include "../../include/scene.h"
+#include "scenes/main_menu/main_menu.h"
+#include "core/scenes/scene.h"
 
 Scene MainMenu;
 uint16_t timer = 0;

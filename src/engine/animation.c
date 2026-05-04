@@ -1,6 +1,6 @@
 #include <stdint.h>
 
-#include "../animation.h"
+#include "engine/animation.h"
 
 AnimationComponent animation[MAX_ENTITIES];
 

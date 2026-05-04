@@ -1,28 +1,28 @@
 #include <gb/gb.h>
 
-#include "../all_scenes.h"
-#include "../scene.h"
+#include "core/scenes/all_scenes.h"
+#include "core/scenes/scene.h"
 
 // All scenes include
 
 // MENU
-#include "../../scenes/language_select/language_select.h"
-#include "../../scenes/gender_select/gender_select.h"
-#include "../../scenes/inventory/inventory_scene.h"
-#include "../../scenes/main_menu/main_menu.h"
-#include "../../scenes/story/story.h"
+#include "scenes/language_select/language_select.h"
+#include "scenes/gender_select/gender_select.h"
+#include "scenes/inventory/inventory_scene.h"
+#include "scenes/main_menu/main_menu.h"
+#include "scenes/story/story.h"
 
 // MAPAS
-#include "../../scenes/map/2-1/map_21.h"
-#include "../../scenes/map/2-2/map_22.h"
-#include "../../scenes/map/2-3/map_23.h"
+#include "maps/2-1/map_21.h"
+#include "maps/2-2/map_22.h"
+#include "maps/2-3/map_23.h"
 
-#include "../../scenes/map/3-0/map_30.h"
-#include "../../scenes/map/3-1/map_31.h"
-#include "../../scenes/map/3-2/map_32.h"
+#include "maps/3-0/map_30.h"
+#include "maps/3-1/map_31.h"
+#include "maps/3-2/map_32.h"
 
 // MINI JUEGOS
-#include "../../scenes/mini_games/leaves/mg_leaves.h"
+#include "mini_games/leaves/mg_leaves.h"
 
 #define MAP_0_BANK 1
 #define MAP_1_BANK 2
