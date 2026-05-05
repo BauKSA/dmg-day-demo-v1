@@ -52,4 +52,8 @@ void Map_Clean();
 extern MapData CurrentMapData;
 extern MapVisitCount Map_VisitCount[MAP_COUNT_END - MAP_COUNT_INIT];
 
+// MAP CLEAN
+extern uint8_t empty_humor_icon;
+extern uint8_t empty_relation_icon;
+
 #endif // MAP_DATA_H

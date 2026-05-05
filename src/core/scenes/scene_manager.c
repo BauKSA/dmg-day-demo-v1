@@ -11,6 +11,10 @@
 #include "core/characters/npcs.h"
 #include "core/characters/player.h"
 
+#include "core/definitions/text_positions.h"
+
+#include "maps/utils/map_data.h"
+
 #include "../assets/sprites/backgrounds/maps/general_tileset.h"
 
 enum AllScenes next_scene = NONE;
@@ -63,6 +67,7 @@ void SceneManager_ChangeScene(enum AllScenes new_scene, Entity *player)
   }
 
   DISPLAY_OFF;
+  uint8_t check_empty_icons = 0;
 
   uint8_t is_map = 0;
   if (new_scene > MAP_COUNT_INIT && new_scene < MAP_COUNT_END)
@@ -79,6 +84,9 @@ void SceneManager_ChangeScene(enum AllScenes new_scene, Entity *player)
     SWITCH_ROM_MBC1(GENERAL_TILESET_BANK);
     set_bkg_data(0, general_tileset_size, general_tileset);
     SWITCH_ROM_MBC1(_prev_bank);
+
+    if (empty_humor_icon == 255 && empty_relation_icon == 255)
+      check_empty_icons = 1;
   }
 
   is_transitioning = 1;
@@ -119,6 +127,12 @@ void SceneManager_ChangeScene(enum AllScenes new_scene, Entity *player)
 
   if (_prev_bank != _current_bank)
     SWITCH_ROM_MBC1(_prev_bank);
+
+  if (check_empty_icons)
+  {
+    empty_humor_icon = get_bkg_tile_xy(HUMOR_ICON_X, ICON_Y);
+    empty_relation_icon = get_bkg_tile_xy(RELATION_ICON_X, ICON_Y);
+  }
 
   keys = 0;
   prev_keys = 0;

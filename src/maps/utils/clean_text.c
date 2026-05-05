@@ -18,6 +18,6 @@ void Map_Clean()
     set_bkg_tiles(i, NAME_START_Y, 1, 1, &empty_tile);
   }
 
-  set_bkg_tiles(HUMOR_ICON_X, ICON_Y, 1, 1, &empty_tile);
-  set_bkg_tiles(RELATION_ICON_X, ICON_Y, 1, 1, &empty_tile);
+  set_bkg_tiles(HUMOR_ICON_X, ICON_Y, 1, 1, &empty_humor_icon);
+  set_bkg_tiles(RELATION_ICON_X, ICON_Y, 1, 1, &empty_relation_icon);
 }
