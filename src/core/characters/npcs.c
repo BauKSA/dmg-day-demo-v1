@@ -28,7 +28,10 @@ Entity option_actor;
 uint8_t humor_stats[MAX_NPCS];
 uint8_t relation_stats[MAX_NPCS];
 
+// dialogue_phase para ayudas rechazadas SIEMPRE es 9, sin
+// importar el número de fases que tenga el NPC, para facilitar la lógica de los diálogos
 uint8_t dialogue_phase[MAX_NPCS];
+uint8_t dialogue_phase_count[MAX_NPCS] = {0, 0, 0, 0, 3, 0, 0, 0, 0, 0, 0, 0};
 
 void init_NPCs()
 {
@@ -173,9 +176,9 @@ void Scene_DrawNPCLine(
 
             if (!(keys & J_B) && (prev_keys & J_B))
             {
-                dialogue_phase[npc_map] = 3; // fase única para ayudas denegadas
+                dialogue_phase[npc_map] = 9; // fase única para ayudas denegadas
                 humor_stats[npc_map] = 0;
-                relation_stats[npc_map] = 0;
+                relation_stats[npc_map] = relation_stats[npc_map] > 0 ? relation_stats[npc_map] - 1 : 0;
 
                 TextFrame_Close(12, 1);
 

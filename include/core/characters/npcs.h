@@ -21,5 +21,6 @@ extern uint8_t humor_stats[MAX_NPCS];
 extern uint8_t relation_stats[MAX_NPCS];
 
 extern uint8_t dialogue_phase[MAX_NPCS];
+extern uint8_t dialogue_phase_count[MAX_NPCS];
 
 #endif //_NPCS_

@@ -6,6 +6,7 @@
 
 #include "core/characters/npc_stats_map.h"
 #include "core/characters/npcs.h"
+#include "core/scenes/all_scenes.h"
 
 #include "maps/utils/map_data.h"
 #include "maps/3-0/map_30.h"
@@ -15,31 +16,25 @@ void Map_30_CheckInput()
   if (CurrentMapData.event_active == 0)
     return;
 
+  uint8_t has_mini_game = 0;
+  enum AllScenes mini_game = NONE;
+
+  if (dialogue_phase[(uint8_t)NPC_ESCOBA] == 1)
+  {
+    has_mini_game = 1;
+    mini_game = MG_LEAVES;
+  }
+
   if (!(keys & J_A) && (prev_keys & J_A))
   {
-    uint8_t mg_active = 0;
-    enum AllScenes mg = NONE;
-
-    if (dialogue_phase[(uint8_t)NPC_ESCOBA] == 1)
+    Scene_DrawNPCLine(npc_1, (uint8_t)NPC_ESCOBA, 0, has_mini_game, mini_game);
+    if (dialogue_phase[(uint8_t)NPC_ESCOBA] < dialogue_phase_count[(uint8_t)NPC_ESCOBA])
     {
-      mg_active = 1;
-      mg = MG_LEAVES;
+      dialogue_phase[(uint8_t)NPC_ESCOBA]++;
     }
 
-    if (dialogue_phase[(uint8_t)NPC_ESCOBA] == 0)
+    if (has_mini_game == 1)
     {
-      tmp_relation = 2;
-    }
-
-    uint8_t tmp = dialogue_phase[(uint8_t)NPC_ESCOBA];
-
-    Scene_DrawNPCLine(npc_1, (uint8_t)NPC_ESCOBA, 0, mg_active, mg);
-
-    if (dialogue_phase[(uint8_t)NPC_ESCOBA] != tmp)
-    {
-      Map_30_InitDialogues();
-      Map_Clean();
-      mg_ended = 0;
       Scene_DrawNPCLine(npc_1, (uint8_t)NPC_ESCOBA, 0, 0, NONE);
     }
   }
