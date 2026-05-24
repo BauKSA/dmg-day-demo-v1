@@ -12,7 +12,7 @@
 
 static void clean_inventory_name()
 {
-    uint8_t empty = 255;
+    uint8_t empty = 256;
     for (uint8_t i = 0; i < 10; i++)
     {
         set_bkg_tile_xy(INVENTORY_ITEM_START_X + i, INVENTORY_ITEM_START_Y, empty);

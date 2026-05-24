@@ -49,4 +49,11 @@ void Map_30_Init(Scene *scene, Entity scene_player)
 
   actual_tile.prev = 0;
   actual_tile.value = 0;
+
+  Scene_DrawNPCLine(npc_1, (uint8_t)NPC_ESCOBA, 0, 0, NONE);
+  if (dialogue_phase[(uint8_t)NPC_ESCOBA] < dialogue_phase_count[(uint8_t)NPC_ESCOBA])
+  {
+    dialogue_phase[(uint8_t)NPC_ESCOBA]++;
+    Map_30_InitDialogues();
+  }
 }

@@ -2,6 +2,8 @@
 
 #include "../assets/chars/chars.h"
 #include "../assets/chars/buttons.h"
+#include "../assets/sprites/frames/text_frame.h"
+
 #include "core/scenes/all_scenes.h"
 #include "core/utils/char_to_tile.h"
 #include "core/characters/player.h"
@@ -21,11 +23,12 @@ void Story_Update(Scene *scene)
       story_lines_timer = 0;
       static uint8_t visible = 0;
       visible = !visible;
-      set_bkg_tile_xy(17, 11, visible ? (BUTTON_TILESET_START + 1) : 255);
+      set_bkg_tile_xy(17, 11, visible ? (BUTTON_TILESET_START + 1) : 256);
     }
 
     if (joypad() & J_A)
     {
+      TextFrame_Close(14, 7);
       scene_manager.change_scene(MAP_21, &player);
     }
     return;

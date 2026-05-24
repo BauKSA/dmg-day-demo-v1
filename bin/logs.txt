@@ -1,4 +1,4 @@
-=== Iniciando compilación: vie 05/08/2026 14:02:59.00 ===
+=== Iniciando compilación: 24/05/2026 18:51:14,75 ===
 [1/3] Compilando cada archivo .c...
 Compilando: buttons.c
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\assets\chars\buttons.h:11: warning 283: function declarator with no prototype
@@ -103,11 +103,11 @@ include/music.h:15: warning 283: function declarator with no prototype
 include/music.h:16: warning 283: function declarator with no prototype
 include/music.h:17: warning 283: function declarator with no prototype
 include/maps/utils/auto_clean.h:8: warning 283: function declarator with no prototype
-C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:36: warning 283: function declarator with no prototype
-C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:169: warning 112: function 'cache_player_position' implicit declaration
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:35: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:168: warning 112: function 'cache_player_position' implicit declaration
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:95: warning 158: overflow in implicit constant conversion
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:96: warning 158: overflow in implicit constant conversion
-C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:97: warning 158: overflow in implicit constant conversion
-C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:169: warning 84: 'auto' variable 'cache_player_position' may be used before initialization
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\characters\npcs.c:168: warning 84: 'auto' variable 'cache_player_position' may be used before initialization
 Compilando: npc_lines.c
 include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
 Compilando: player.c
@@ -143,9 +143,13 @@ include/core/characters/npcs.h:12: warning 283: function declarator with no prot
 include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
 include/maps/utils/map_data.h:50: warning 283: function declarator with no prototype
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\scene_manager.c:24: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\scene_manager.c:88: warning 94: comparison is always false due to limited range of data type
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\scene_manager.c:77: warning 154: converting integral to pointer without a cast
 from type 'const-unsigned-char literal'
   to type 'struct Scene generic* fixed'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\scene_manager.c:89: warning 126: unreachable code
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\scene_manager.c:131: warning 110: conditional flow changed by optimizer: so said EVELYN the modified DOG
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\core\scenes\scene_manager.c:133: warning 126: unreachable code
 Compilando: action.c
 include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
 include/music.h:10: warning 283: function declarator with no prototype
@@ -301,8 +305,8 @@ include/core/characters/npcs.h:12: warning 283: function declarator with no prot
 include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
 include/maps/utils/map_data.h:50: warning 283: function declarator with no prototype
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_init.c:20: warning 283: function declarator with no prototype
-C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_init.c:51: warning 85: in function Map_30_Init unreferenced function argument : 'scene'
-C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_init.c:51: warning 85: in function Map_30_Init unreferenced function argument : 'scene_player'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_init.c:56: warning 85: in function Map_30_Init unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\3-0\map_30_init.c:56: warning 85: in function Map_30_Init unreferenced function argument : 'scene_player'
 Compilando: map_30_init_npc.c
 include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
 include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
@@ -369,6 +373,7 @@ Compilando: clean_text.c
 include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
 include/maps/utils/map_data.h:50: warning 283: function declarator with no prototype
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\clean_text.c:5: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\clean_text.c:8: warning 158: overflow in implicit constant conversion
 Compilando: item_no_use.c
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\item_no_use.c:12: warning 283: function declarator with no prototype
 Compilando: map_collision.c
@@ -385,6 +390,8 @@ C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\m
 Compilando: map_data.c
 include/maps/utils/map_data.h:25: warning 283: function declarator with no prototype
 include/maps/utils/map_data.h:50: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\map_data.c:6: warning 158: overflow in implicit constant conversion
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\map_data.c:7: warning 158: overflow in implicit constant conversion
 Compilando: map_player_movement.c
 include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\maps\utils\map_player_movement.c:12: warning 283: function declarator with no prototype
@@ -438,6 +445,7 @@ C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\l
 Compilando: mg_instruction_set.c
 include/../assets/chars/buttons.h:11: warning 283: function declarator with no prototype
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_instruction_set.c:74: warning 158: overflow in implicit constant conversion
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_instruction_set.c:75: warning 158: overflow in implicit constant conversion
 Compilando: mg_load_screen.c
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_load_screen.c:15: warning 283: function declarator with no prototype
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_load_screen.c:28: warning 283: function declarator with no prototype
@@ -451,6 +459,8 @@ include/music.h:14: warning 283: function declarator with no prototype
 include/music.h:15: warning 283: function declarator with no prototype
 include/music.h:16: warning 283: function declarator with no prototype
 include/music.h:17: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_mission_complete.c:53: warning 158: overflow in implicit constant conversion
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_mission_complete.c:110: warning 158: overflow in implicit constant conversion
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\mini_games\utils\mg_mission_complete.c:154: warning 283: function declarator with no prototype
 Compilando: mg_player_movement.c
 include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
@@ -479,6 +489,7 @@ C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inven
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:45: warning 84: 'auto' variable 'name_en' may be used before initialization
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:50: warning 84: 'auto' variable 'name_es' may be used before initialization
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:122: warning 158: overflow in implicit constant conversion
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_new_item.c:123: warning 158: overflow in implicit constant conversion
 Compilando: inventory_scene.c
 Compilando: inventory_scene_arrow.c
 include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
@@ -500,6 +511,7 @@ C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inven
 Compilando: inventory_scene_update.c
 include/core/characters/npcs.h:12: warning 283: function declarator with no prototype
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_update.c:13: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_update.c:15: warning 158: overflow in implicit constant conversion
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\inventory\inventory_scene_update.c:40: warning 85: in function InventoryScene_Update unreferenced function argument : 'scene'
 Compilando: language_select.c
 Compilando: language_select_create.c
@@ -537,6 +549,7 @@ include/core/scenes/scene_manager.h:18: warning 283: function declarator with no
 include/scenes/main_menu/main_menu.h:13: warning 283: function declarator with no prototype
 Compilando: main_menu_update.c
 include/scenes/main_menu/main_menu.h:13: warning 283: function declarator with no prototype
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\main_menu\main_menu_update.c:26: warning 158: overflow in implicit constant conversion
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\main_menu\main_menu_update.c:39: warning 85: in function MainMenu_Update unreferenced function argument : 'scene'
 Compilando: story.c
 C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story.c:14: warning 283: function declarator with no prototype
@@ -558,7 +571,7 @@ C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story
 Compilando: story_update.c
 include/../assets/chars/buttons.h:11: warning 283: function declarator with no prototype
 include/core/scenes/scene_manager.h:18: warning 283: function declarator with no prototype
-C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_update.c:22: warning 85: in function Story_Update unreferenced function argument : 'scene'
+C:\Users\Bau_M\OneDrive\Desktop\GameDev\Gameboy\dmg-day-demo-v1\src\scenes\story\story_update.c:24: warning 85: in function Story_Update unreferenced function argument : 'scene'
 [2/3] Entrando a la carpeta de objetos...
 [3/3] Linkeando ROM...
 === EXITO: ROM GENERADA ===

@@ -23,7 +23,7 @@ void MainMenu_Update(Scene *scene)
     {
       show_text = 0;
 
-      uint8_t empty_tile = 255;
+      uint8_t empty_tile = 256;
       for (size_t i = 4; i < 16; i++)
       {
         set_bkg_tiles(i, 9, 1, 1, &empty_tile);

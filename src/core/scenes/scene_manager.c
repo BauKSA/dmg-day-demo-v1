@@ -85,7 +85,7 @@ void SceneManager_ChangeScene(enum AllScenes new_scene, Entity *player)
     set_bkg_data(0, general_tileset_size, general_tileset);
     SWITCH_ROM_MBC1(_prev_bank);
 
-    if (empty_humor_icon == 255 && empty_relation_icon == 255)
+    if (empty_humor_icon == 256 && empty_relation_icon == 256)
       check_empty_icons = 1;
   }
 

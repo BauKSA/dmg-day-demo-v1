@@ -5,7 +5,7 @@
 void Map_Clean()
 {
   CurrentMapData.event_active = 0;
-  uint8_t empty_tile = 255;
+  uint8_t empty_tile = 256;
 
   for (size_t i = TEXT_START_X; i <= TEXT_END_X; i++)
   {

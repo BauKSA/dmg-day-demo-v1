@@ -35,6 +35,8 @@ void Map_30_CheckInput()
 
     if (has_mini_game == 1)
     {
+      Map_Clean();
+      Map_30_InitDialogues();
       Scene_DrawNPCLine(npc_1, (uint8_t)NPC_ESCOBA, 0, 0, NONE);
     }
   }

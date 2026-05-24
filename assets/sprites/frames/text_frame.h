@@ -3,13 +3,13 @@
 #include <stdint.h>
 
 #define text_frame_tileset_size 21
-#define TEXT_FRAME_TILESET_START 176
+#define TEXT_FRAME_TILESET_START 192
 
 extern const unsigned char text_frame_tileset[];
 extern const unsigned char text_frame_tilemap[];
-extern uint8_t backup_tiles[255];
+extern uint8_t backup_tiles[320];
 
-void TextFrame_Init(uint8_t width, uint8_t height);
+void TextFrame_Init(uint8_t width, uint8_t height, uint8_t offset);
 void TextFrame_Close(uint8_t width, uint8_t height);
 
 #endif // _TEXTFRAME_

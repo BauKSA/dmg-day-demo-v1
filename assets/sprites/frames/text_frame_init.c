@@ -1,15 +1,19 @@
 #include "./text_frame.h"
+#include "../../chars/numbers.h"
+
 #include <gb/gb.h>
 #include <stdint.h>
 
-uint8_t backup_tiles[255];
+uint8_t backup_tiles[320];
 
 void TextFrame_Close(uint8_t width, uint8_t height)
 {
-  uint8_t x, y;
-  uint8_t i = 0;
+  uint16_t x, y;
+  uint16_t i = 0;
   uint8_t total_w = width + 4;  // 2 tiles izq + 2 tiles der
   uint8_t total_h = height + 4; // 2 tiles sup + 2 tiles inf
+
+  set_bkg_data(NUMBER_TILESET_START, numbers_tileset_size, numbers_tileset);
 
   for (y = 0; y < total_h; y++)
   {
@@ -21,11 +25,11 @@ void TextFrame_Close(uint8_t width, uint8_t height)
   }
 }
 
-void TextFrame_Init(uint8_t width, uint8_t height)
+void TextFrame_Init(uint8_t width, uint8_t height, uint8_t offset)
 {
-  uint8_t x, y, w, h;
-  uint8_t i;
-  uint8_t screen_y = 0;
+  uint16_t x, y, w, h;
+  uint16_t i;
+  uint16_t screen_y = 0;
 
   uint16_t b_idx = 0;
   // Antes de dibujar nada, leemos la pantalla
@@ -37,7 +41,11 @@ void TextFrame_Init(uint8_t width, uint8_t height)
     }
   }
 
-  set_bkg_data(TEXT_FRAME_TILESET_START, text_frame_tileset_size,
+  uint8_t offset_init = 29;
+  if (offset == 1)
+    offset_init = TEXT_FRAME_TILESET_START;
+
+  set_bkg_data(offset_init, text_frame_tileset_size,
                text_frame_tileset);
 
   // --- PARTE 1: Dibujamos las primeras 2 filas (Superiores) ---
@@ -47,12 +55,12 @@ void TextFrame_Init(uint8_t width, uint8_t height)
 
     // Dibujar borde izquierdo (col 0 y 1)
     set_bkg_tile_xy(1 + 0, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
     set_bkg_tile_xy(1 + 1, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
 
     // Centro repetido (col 2)
-    uint8_t tile_centro = text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START;
+    uint8_t tile_centro = text_frame_tilemap[i++] + offset_init;
     for (w = 0; w < width; w++)
     {
       set_bkg_tile_xy(1 + 2 + w, 3 + screen_y, tile_centro);
@@ -60,9 +68,9 @@ void TextFrame_Init(uint8_t width, uint8_t height)
 
     // Borde derecho (col 3 y 4)
     set_bkg_tile_xy(1 + 2 + width + 0, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
     set_bkg_tile_xy(1 + 2 + width + 1, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
 
     screen_y++;
   }
@@ -73,21 +81,21 @@ void TextFrame_Init(uint8_t width, uint8_t height)
     i = 10; // La fila 2 empieza en el tile 10
 
     set_bkg_tile_xy(1 + 0, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
     set_bkg_tile_xy(1 + 1, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
 
     uint8_t tile_centro_mid =
-        text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START;
+        text_frame_tilemap[i++] + offset_init;
     for (w = 0; w < width; w++)
     {
       set_bkg_tile_xy(1 + 2 + w, 3 + screen_y, tile_centro_mid);
     }
 
     set_bkg_tile_xy(1 + 2 + width + 0, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
     set_bkg_tile_xy(1 + 2 + width + 1, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
 
     screen_y++;
   }
@@ -98,21 +106,21 @@ void TextFrame_Init(uint8_t width, uint8_t height)
     i = (y + 3) * 5; // Filas 3 y 4 del tilemap
 
     set_bkg_tile_xy(1 + 0, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
     set_bkg_tile_xy(1 + 1, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
 
     uint8_t tile_centro_bot =
-        text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START;
+        text_frame_tilemap[i++] + offset_init;
     for (w = 0; w < width; w++)
     {
       set_bkg_tile_xy(1 + 2 + w, 3 + screen_y, tile_centro_bot);
     }
 
     set_bkg_tile_xy(1 + 2 + width + 0, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
     set_bkg_tile_xy(1 + 2 + width + 1, 3 + screen_y,
-                    text_frame_tilemap[i++] + TEXT_FRAME_TILESET_START);
+                    text_frame_tilemap[i++] + offset_init);
 
     screen_y++;
   }

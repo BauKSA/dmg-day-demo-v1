@@ -24,7 +24,6 @@
 Entity npc_1;
 Entity npc_2;
 Entity option_actor;
-
 uint8_t humor_stats[MAX_NPCS];
 uint8_t relation_stats[MAX_NPCS];
 
@@ -91,7 +90,7 @@ void Scene_DrawNPCLine(
 
     if (has_minigame)
     {
-        TextFrame_Init(12, 1);
+        TextFrame_Init(12, 1, 1);
 
         uint8_t a_button = BUTTON_TILESET_START + 1;
         uint8_t b_button = BUTTON_TILESET_START + 2;

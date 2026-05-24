@@ -13,7 +13,7 @@ void Story_Init(Scene *scene, Entity player)
     set_bkg_data(0, template_tileset_size, template_tileset);
     set_bkg_tiles(0, 0, 20, 18, template_tilemap);
 
-    TextFrame_Init(14, 7);
+    TextFrame_Init(14, 7, 0);
 
     if (language == SPANISH)
     {

@@ -72,7 +72,7 @@ void Mg_InstructionSet(Instruction *instructions, uint8_t instruction_count, Req
     }
 
     uint8_t button = (uint8_t)A + BUTTON_TILESET_START;
-    uint8_t empty_tile = 255;
+    uint8_t empty_tile = 256;
 
     set_bkg_tile_xy(17, 12, button);
 

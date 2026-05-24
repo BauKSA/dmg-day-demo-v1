@@ -50,7 +50,7 @@ void Mg_SplashCompleteScreen(uint8_t npc_map, uint8_t success,
 
     if (success == 0)
     {
-      uint8_t empty_tile = 255;
+      uint8_t empty_tile = 256;
       set_bkg_tile_xy(MC_TASK_COMPLETE_X, MC_TASK_COMPLETE_Y, empty_tile);
     }
 
@@ -107,7 +107,7 @@ void Mg_SplashCompleteScreen(uint8_t npc_map, uint8_t success,
 
     if (success == 0)
     {
-      uint8_t empty_tile = 255;
+      uint8_t empty_tile = 256;
       set_bkg_tile_xy(MC_TASK_COMPLETE_X, MC_TASK_COMPLETE_Y, empty_tile);
     }
 

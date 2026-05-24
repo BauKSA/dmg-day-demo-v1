@@ -120,7 +120,7 @@ void NewItemScreen(Item item)
     }
 
     uint8_t button = 1 + BUTTON_TILESET_START;
-    uint8_t empty_tile = 255;
+    uint8_t empty_tile = 256;
 
     set_bkg_data(ITEMS_TILESET_START, items_tileset_size, items_tileset);
 
