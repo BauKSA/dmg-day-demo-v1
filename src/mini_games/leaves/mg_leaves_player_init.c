@@ -29,4 +29,12 @@ void Mg_Leaves_Player_Init()
         spr_broom_01};
 
     init_animation(mg_player, &animation[mg_player], 0, broom_idle, 1, DEFAULT_ANIMATION_SPEED, 2);
+
+    const unsigned char *broom_sweeping[] = {
+        spr_broom_sweeping_00,
+        spr_broom_sweeping_01};
+
+    init_animation(mg_player, &animation[mg_player], 1, broom_sweeping, 1, DEFAULT_ANIMATION_SPEED, 2);
+
+    set_animation(&animation[mg_player], 0);
 }

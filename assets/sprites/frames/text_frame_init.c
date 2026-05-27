@@ -13,8 +13,6 @@ void TextFrame_Close(uint8_t width, uint8_t height)
   uint8_t total_w = width + 4;  // 2 tiles izq + 2 tiles der
   uint8_t total_h = height + 4; // 2 tiles sup + 2 tiles inf
 
-  set_bkg_data(NUMBER_TILESET_START, numbers_tileset_size, numbers_tileset);
-
   for (y = 0; y < total_h; y++)
   {
     for (x = 0; x < total_w; x++)
@@ -23,6 +21,9 @@ void TextFrame_Close(uint8_t width, uint8_t height)
       set_bkg_tile_xy(1 + x, 3 + y, backup_tiles[i++]);
     }
   }
+
+    set_bkg_data(NUMBER_TILESET_START, numbers_tileset_size,
+               (uint8_t *)numbers_tileset);
 }
 
 void TextFrame_Init(uint8_t width, uint8_t height, uint8_t offset)

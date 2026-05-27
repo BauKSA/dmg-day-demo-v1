@@ -4,4 +4,7 @@
 extern unsigned char spr_broom_00[];
 extern unsigned char spr_broom_01[];
 
+extern unsigned char spr_broom_sweeping_00[];
+extern unsigned char spr_broom_sweeping_01[];
+
 #endif //_SPR_BROOM_

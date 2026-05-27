@@ -166,6 +166,9 @@ void Scene_DrawNPCLine(
             if (!(keys & J_A) && (prev_keys & J_A))
             {
                 cache_player_position();
+
+                TextFrame_Close(12, 1);
+
                 next_scene = minigame;
 
                 AcceptHelp();
