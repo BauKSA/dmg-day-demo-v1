@@ -57,7 +57,7 @@ void Mg_Leaves_Init(Scene *scene, Entity scene_player)
 {
   mg_leaves_DATA.bottom_limit = 120;
   mg_leaves_DATA.right_limit = 120;
-  mg_leaves_DATA.left_limit = 32;
+  mg_leaves_DATA.left_limit = 48;
 
   mg_ended = 1;
 

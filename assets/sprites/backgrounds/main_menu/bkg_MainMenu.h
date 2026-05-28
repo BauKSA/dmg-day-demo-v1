@@ -1,7 +1,7 @@
 #ifndef _BKG_MAINMENU_
 #define _BKG_MAINMENU_
 
-#define bkg_main_menu_tileset_size 44
+#define bkg_main_menu_tileset_size 57
 
 extern const unsigned char bkg_main_menu_tileset[]; 
 

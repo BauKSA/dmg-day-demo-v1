@@ -4,29 +4,32 @@
 #include <stdio.h>
 
 #include "../../../assets/chars/numbers.h"
-#include "core/scenes/all_scenes.h"
+
 #include "engine/draw.h"
+#include "engine/input.h"
+#include "engine/random.h"
+#include "engine/animation.h"
+
+#include "core/scenes/all_scenes.h"
 #include "core/definitions/inventory.h"
 #include "core/definitions/can_move.h"
 #include "core/characters/extra_actor.h"
-#include "engine/input.h"
 #include "core/utils/intermitent_text.h"
 #include "core/definitions/money.h"
 #include "core/characters/npc_stats_map.h"
 #include "core/characters/npcs.h"
 #include "core/characters/player.h"
-#include "engine/random.h"
 #include "core/scenes/scene_manager.h"
 #include "core/definitions/text_positions.h"
 
+#include "mini_games/leaves/mg_leaves.h"
 #include "mini_games/utils/mg_mission_complete.h"
-#include "scenes/inventory/inventory_scene.h"
 #include "mini_games/utils/mg_player_movement.h"
 #include "mini_games/utils/mg_set_coins_reward.h"
 #include "mini_games/utils/mg_timer.h"
 #include "mini_games/mini_games.h"
 
-#include "mini_games/leaves/mg_leaves.h"
+#include "scenes/inventory/inventory_scene.h"
 
 uint8_t is_being_swept(uint8_t actor_idx)
 {
@@ -264,6 +267,13 @@ void Mg_Leaves_Update(Scene *scene)
     can_move.right = 1;
 
   Mg_PlayerMovement(1, 0);
+
+  if (SWEEPING_FLAG)
+  {
+    set_animation(&animation[mg_player], 1);
+  }else{
+    set_animation(&animation[mg_player], 0);
+  }
 
   check_actor_collision();
   check_actor_status();

@@ -18,11 +18,11 @@ void Story_Init(Scene *scene, Entity player)
     if (language == SPANISH)
     {
         story_lines[0] = "hoy sale la nueva";
-        story_lines[1] = "game boy! me voy a";
-        story_lines[2] = "ratear del colegio";
-        story_lines[3] = "a ver si consigo";
-        story_lines[4] = "plata y la puedo";
-        story_lines[5] = "comprar";
+        story_lines[1] = "game boy! pero";
+        story_lines[2] = "todavia no la";
+        story_lines[3] = "voy a comprar...";
+        story_lines[4] = "esto es solo";
+        story_lines[5] = "una demo";
     }
     else
     {
