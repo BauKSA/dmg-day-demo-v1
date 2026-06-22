@@ -89,6 +89,8 @@ void main(void)
     prev_keys = keys;
     keys = joypad();
 
+    //COMENTARIO
+
     if (next_scene != NONE)
       scene_manager.change_scene(next_scene, player);
 
