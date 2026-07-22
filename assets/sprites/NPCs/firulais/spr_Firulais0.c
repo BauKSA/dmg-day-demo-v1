@@ -2,7 +2,7 @@
 
 #include "spr_Firulais.h"
 
-unsigned char spr_Firulais00[] = {
+const unsigned char spr_Firulais00[] = {
     0x03,
     0x03,
     0x03,
@@ -20,7 +20,7 @@ unsigned char spr_Firulais00[] = {
     0x01,
     0x01};
     
-unsigned char spr_Firulais02[] = {
+const unsigned char spr_Firulais02[] = {
     0x03,
     0x02,
     0x47,
@@ -38,7 +38,7 @@ unsigned char spr_Firulais02[] = {
     0x06,
     0x06};
 
-unsigned char spr_Firulais01[] = {
+const unsigned char spr_Firulais01[] = {
     0x08,
     0x08,
     0x9C,
@@ -56,7 +56,7 @@ unsigned char spr_Firulais01[] = {
     0x38,
     0xF8};
 
-unsigned char spr_Firulais03[] = {
+const unsigned char spr_Firulais03[] = {
     0xC4, 0xFC, 0xF8, 0x38, 0xF8, 0x08,
     0xF8, 0x08, 0xF8, 0x08, 0xB4, 0x6C,
     0x5A, 0x36, 0x6C, 0x6C};
