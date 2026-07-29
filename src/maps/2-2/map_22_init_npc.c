@@ -33,14 +33,8 @@ void Map_22_InitNPC()
         spr_Martin_down00,
         spr_Martin_down01,
         spr_Martin_down02,
-        spr_Martin_down03,
-
-        // segundo frame
-        spr_Martin_down10,
-        spr_Martin_down11,
-        spr_Martin_down12,
-        spr_Martin_down13,
+        spr_Martin_down03
     };
 
-    init_animation(npc_1, &animation[npc_1], 0, npc_patrol, 2, DEFAULT_ANIMATION_SPEED * 3, 4);
+    init_animation(npc_1, &animation[npc_1], 0, npc_patrol, 1, DEFAULT_ANIMATION_SPEED, 4);
 }

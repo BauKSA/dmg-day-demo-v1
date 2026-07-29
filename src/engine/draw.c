@@ -2,6 +2,7 @@
 #include <gb/gb.h>
 
 #include "engine/draw.h"
+#include "engine/flip.h"
 
 // TODO:
 // Acá habría que o mover extra actors a engine o mover draw_extra a core...
@@ -51,10 +52,20 @@ void draw_actor(Entity e)
     }
     else if (num_tiles == 4)
     {
-        move_sprite(sprite_ids[0], x, y);
-        move_sprite(sprite_ids[1], x + 8, y);
-        move_sprite(sprite_ids[2], x, y + 8);
-        move_sprite(sprite_ids[3], x + 8, y + 8);
+        if (flipped[e])
+        {
+            move_sprite(sprite_ids[0], x + 8, y);
+            move_sprite(sprite_ids[1], x, y);
+            move_sprite(sprite_ids[2], x + 8, y + 8);
+            move_sprite(sprite_ids[3], x, y + 8);
+        }
+        else
+        {
+            move_sprite(sprite_ids[0], x, y);
+            move_sprite(sprite_ids[1], x + 8, y);
+            move_sprite(sprite_ids[2], x, y + 8);
+            move_sprite(sprite_ids[3], x + 8, y + 8);
+        }
     }
 }
 

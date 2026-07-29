@@ -20,6 +20,7 @@ void Map_22_CheckItems(void);
 extern Scene Map_22;
 extern uint8_t npc_appeared;
 extern uint8_t temp_relation;
+extern uint8_t frame;
 
 void Map_22_Create(void);
 
